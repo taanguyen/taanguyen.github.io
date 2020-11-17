@@ -17,14 +17,14 @@ function adjustLinks(e){
     link2 = document.querySelector(".link2");
     if (e.target.checked){
         link1.innerHTML = "code";
-        link1.setAttribute("href") = "https://github.com/taanguyen";
+        link1.setAttribute("href", "https://github.com/taanguyen");
         link2.innerHTML = "blog";
-        link2.setAttribute("href") = "https://taanguyen.github.io/blog/";
+        link2.setAttribute("href","https://taanguyen.github.io/blog/");
     }    
     else{
         link1.innerHTML = "read";
-        link1.setAttribute("href") = "#";
+        link1.setAttribute("href", "#");
         link2.innerHTML = "compose music";
-        link2.setAttribute("href") = "https://youtu.be/jyZd-84vZ_w";
+        link2.setAttribute("href","https://youtu.be/jyZd-84vZ_w");
     }
 }
