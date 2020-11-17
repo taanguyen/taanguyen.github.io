@@ -25,6 +25,6 @@ function adjustLinks(e){
         link1.innerHTML = "read";
         link1.setAttribute("href") = "#";
         link2.innerHTML = "compose music";
-        link2.setAttribute("href") = "https://photos.app.goo.gl/Ge4fNPhMKC8KRBY48";
+        link2.setAttribute("href") = "https://youtu.be/jyZd-84vZ_w";
     }
 }
