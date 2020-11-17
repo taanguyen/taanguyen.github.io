@@ -25,6 +25,6 @@ function adjustLinks(e){
         link1.text = "read";
         link1.href = "#";
         link2.text = "compose music";
-        link2.href = "#";
+        link2.href = "https://photos.app.goo.gl/Ge4fNPhMKC8KRBY48";
     }
 }
